@@ -131,7 +131,7 @@
 						<li>Specification of distributed systems</li>
 						<li>Modeling of complex software projects</li>
 					</ul>
-					<p><a class="btn btn-primary" href="#">View details &raquo;</a></p>
+					<p><a class="btn btn-primary disabled" href="">View details &raquo;</a></p>
 				</div>
 				
                 <div class="span2">
@@ -231,11 +231,11 @@
 		<script type="text/javascript">
 			$(function(){				
 				$("#show_details_inhaus").click(function(){
-                    $("#show_details_inhaus").hide();
-                    $("#details_inhaus").slideDown();
+                    $("#show_details_inhaus").slideUp();
+                    $("#details_inhaus").slideDown();	
                 });
                 $("#show_details_coconet").click(function(){
-                    $("#show_details_coconet").hide();
+                    $("#show_details_coconet").slideUp();
                     $("#details_coconet").slideDown();
                 });
 			});
