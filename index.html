@@ -9,6 +9,7 @@
 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 <style type="text/css">
 body {
+    padding-top: 20px;
     padding-bottom: 40px;
 }
 
@@ -24,6 +25,7 @@ div#profiles a {
 div#profiles img {
     margin: 4px 2px 4px 2px;
 }
+
 </style>
 <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 
@@ -33,21 +35,8 @@ div#profiles img {
 
 </head>
 
-<body data-offset="50">
-    <div id="navbar" class="navbar">
-        <div class="navbar-inner">
-            <div class="container">
-                <ul class="nav pull-right">
-                    <a class="brand" href="#"> Dominik Schacht </a>
-                </ul>
-                <ul class="nav">
-                    <li class="active"><a href="index.html">Profile</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                </ul>
-            </div>
-
-        </div>
-    </div>
+<body>
+    
     <div class="container">
 
         <!-- Hero Unit for greeting -->
@@ -99,6 +88,34 @@ div#profiles img {
                         target="_blank"><img
                         src="assets/img/xing.png"></img></a>
                 </div>
+            </div>
+        </div>
+        
+        <div id="navbar" class="navbar subnav">
+            <div class="navbar-inner">
+                <div class="container">
+                    <ul class="nav pull-left">
+                        <a class="brand" href="index.html">Profile</a>
+                    </ul>
+                    <ul class="nav">
+                        <li><a href="#skills">Skills</a></li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="#education">Education</a></li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="#employment">Employment</a></li>
+                    </ul>
+                    <ul class="nav pull-right">
+                        <a class="brand" href="projects.html">Projects</a>
+                    </ul>
+                    <ul class="nav pull-right">
+                        <li><a href="#skills">Python</a></li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="#education">Java</a></li>
+                        <li class="divider-vertical"></li>
+                        <li><a href="#employment">Other</a></li>
+                    </ul>
+                </div>
+
             </div>
         </div>
 
@@ -312,31 +329,32 @@ div#profiles img {
     <script src="assets/js/bootstrap-scrollspy.js"></script>
 
     <script type="text/javascript">
-					$(function() {
-						$("#show_details_inhaus").click(function() {
-							$("#show_details_inhaus").slideUp();
-							$("#details_inhaus").slideDown();
-						});
-						$("#show_details_coconet").click(function() {
-							$("#show_details_coconet").slideUp();
-							$("#details_coconet").slideDown();
-						});
-					});
+		$(function() {
+			$("#show_details_inhaus").click(function() {
+				$("#show_details_inhaus").slideUp();
+				$("#details_inhaus").slideDown();
+			});
+			$("#show_details_coconet").click(function() {
+				$("#show_details_coconet").slideUp();
+				$("#details_coconet").slideDown();
+			});
+		});
+		
 
-					var _gaq = _gaq || [];
-					_gaq.push([ '_setAccount', 'UA-32675919-2' ]);
-					_gaq.push([ '_trackPageview' ]);
+		var _gaq = _gaq || [];
+		_gaq.push([ '_setAccount', 'UA-32675919-2' ]);
+		_gaq.push([ '_trackPageview' ]);
 
-					(function() {
-						var ga = document.createElement('script');
-						ga.type = 'text/javascript';
-						ga.async = true;
-						ga.src = ('https:' == document.location.protocol ? 'https://ssl'
-								: 'http://www')
-								+ '.google-analytics.com/ga.js';
-						var s = document.getElementsByTagName('script')[0];
-						s.parentNode.insertBefore(ga, s);
-					})();
-				</script>
+		(function() {
+			var ga = document.createElement('script');
+			ga.type = 'text/javascript';
+			ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+					: 'http://www')
+					+ '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
 </body>
 </html>
