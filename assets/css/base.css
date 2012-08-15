@@ -1,0 +1,19 @@
+/* base.scss
+ * SCSS-stylesheet used by all pages.
+ */
+body {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 3%;
+  padding-right: 3%; }
+
+div#profiles {
+  text-align: center;
+  margin-top: 1em; }
+  div#profiles a {
+    margin-left: 2em; }
+  div#profiles img {
+    margin: 4px 2px 4px 2px; }
+
+.hero-unit h1 {
+  font-size: 50px; }
