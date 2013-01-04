@@ -1,0 +1,16 @@
+.. title: A static-generated blog
+.. slug: a-static-generated-blog
+.. date: 2013/01/04 16:59:19
+.. tags: 
+.. link: 
+.. description: 
+
+I have decided that it would be super cool and hip to switch from the wordpress blog that I hardly use to a static generated blog. I decided to use `Nikola <http://http://nikola.ralsina.com.ar/>`_ which seems simple enough to use for a blog and static pages.
+
+The comfort I see in a static blog is that I can just push it via git to github and use that as hosting. Whenever I want to switch the hoster I just put the static files somewhere else.
+
+.. class:: lead, well
+
+This is a leading paragraph that looks very important without seeming like a hero.
+
+This one should no longer be important
