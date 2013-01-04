@@ -9,8 +9,13 @@ I have decided that it would be super cool and hip to switch from the wordpress 
 
 The comfort I see in a static blog is that I can just push it via git to github and use that as hosting. Whenever I want to switch the hoster I just put the static files somewhere else.
 
-.. class:: lead, well
+Writing Posts
+=============
+Writing posts is easy as opening a txt file and writing some *RestructuredText*
 
-This is a leading paragraph that looks very important without seeming like a hero.
+Also, writing some python listing is also fun:
 
-This one should no longer be important
+.. code-block:: python
+
+	print "Hello World!"
+

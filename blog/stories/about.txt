@@ -1,0 +1,8 @@
+.. title: about
+.. slug: about
+.. date: 2013/01/04 17:14:01
+.. tags: 
+.. link: 
+.. description: 
+
+Hurray for empty about sections!
