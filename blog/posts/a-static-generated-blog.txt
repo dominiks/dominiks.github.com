@@ -2,8 +2,8 @@
 .. slug: a-static-generated-blog
 .. date: 2013/01/04 17:00:00
 .. tags: blog
-.. link: 
-.. description: 
+.. link: http://www.dominik-schacht.com/blog
+.. description: Desc!
 
 I have decided that it would be super cool and hip to switch from the wordpress blog that I hardly use to a static generated blog. I decided to use `Nikola <http://http://nikola.ralsina.com.ar/>`_ which seems simple enough to use for a blog and static pages.
 
