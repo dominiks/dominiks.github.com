@@ -1,0 +1,9 @@
+.. title: Working on the design
+.. slug: working-on-the-design
+.. date: 2013/01/16 17:00:00
+.. tags: blog
+.. link: 
+.. description: 
+
+Instead of producing content I am still focused on working on the blog's template to make it look more in line with the main page and less like the standard Nikola blog. Fortunately both use `Twitter Bootstrap <http://twitter.github.com/bootstrap/>`_ as their css fundament making it easier for me to make them look like each other and extend both at the same time.
+
