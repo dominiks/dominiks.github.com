@@ -1,5 +1,5 @@
-.. title: A static-generated blog
-.. slug: a-static-generated-blog
+.. title: A statically generated blog
+.. slug: a-statically-generated-blog
 .. date: 2013/01/04 17:00:00
 .. tags: blog
 .. link: http://www.dominik-schacht.com/blog
