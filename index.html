@@ -1,29 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Dominik Schacht</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="author" content="Dominik Schacht">
-
-<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-<link href="assets/css/base.css" rel="stylesheet">
-
-<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-
-</head>
-
-<body>
     
-    <div class="container-fluid">
+    <meta charset="utf-8">
+    <meta name="title" content="Index | Dominik Schacht">
+    <meta name="description" content="">
+    <meta name="author" content="Dominik Schacht">
+    <title>Index | Dominik Schacht</title>
+    <!-- Le styles -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/rst.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/code.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/colorbox.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/slides.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/theme.css" rel="stylesheet" type="text/css">
+        <script src="assets/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+        <script src="assets/js/jquery.colorbox-min.js" type="text/javascript"></script>
+        <script src="assets/js/slides.min.jquery.js" type="text/javascript"></script>
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+            <link rel="alternate" type="application/rss+xml" title="RSS (en)" href="blog/rss.xml">
+
+    
+    
+</head>
+<body>
+<!-- Menubar -->
+<div class="navbar navbar-static-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="brand" href=".">
+            Dominik Schacht
+            </a>
+            <ul class="nav">
+                
+            <li><a href="blog/index.html">Blog</a>
+            </li><li><a href="archive.html">Archives</a>
+            </li><li><a href="categories/index.html">Tags</a>
+            </li><li><a href="http://www.dominik-schacht.com">Personal Page</a>
+
+            </li></ul>
+            <ul class="nav pull-right">
+            
+            
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- End of Menubar -->
+    <!--Body content-->
+    
+    <div><div class="container-fluid">
 
         <!-- Hero Unit for greeting -->
         <div class="hero-unit" style="padding: 1em;">
             <div class="thumbnail span2" style="margin-right: 20px;">
-                <img src="assets/img/portrait.jpg" />
+                <img src="http://www.dominik-schacht.com/assets/img/portrait.jpg">
             </div>
             <div style="overflow: auto;">
                 <h1>Dominik Schacht</h1>
@@ -53,37 +87,27 @@
             <div class="row-fluid" style="margin-left: 1em;">
                 <h3 class="offset4">View my profiles on</h3>
                 <div id="profiles">
-                    <a class="btn" href="https://github.com/dominiks"
-                        target="_blank"><img
-                        src="assets/img/github.png"></img></a> <a
-                        class="btn"
-                        href="https://bitbucket.org/dominiks/"
-                        target="_blank"><img
-                        src="assets/img/bitbucket.png"></img></a> <a
-                        class="btn"
-                        href="http://code.google.com/u/108070006114039548686/"
-                        target="_blank"><img
-                        src="assets/img/googlecode.png"></img></a> <a
-                        class="btn"
-                        href="https://www.xing.com/profile/Dominik_Schacht2"
-                        target="_blank"><img
-                        src="assets/img/xing.png"></img></a>
+                    <a class="btn" href="https://github.com/dominiks" target="_blank"><img src="http://www.dominik-schacht.com/assets/img/github.png"></a> <a class="btn" href="https://bitbucket.org/dominiks/" target="_blank"><img src="http://www.dominik-schacht.com/assets/img/bitbucket.png"></a> <a class="btn" href="http://code.google.com/u/108070006114039548686/" target="_blank"><img src="http://www.dominik-schacht.com/assets/img/googlecode.png"></a> <a class="btn" href="https://www.xing.com/profile/Dominik_Schacht2" target="_blank"><img src="http://www.dominik-schacht.com/assets/img/xing.png"></a>
                 </div>
             </div>
         </div>
+	<!-- Pack this in a nice div or sth.
+	<a class="btn" href="stories/projects.html">See my projects</a>
+	<a class="btn" href="blog/index.html">See my blog</a>
+	-->
         
         <div id="navbar" class="navbar subnav">
             <div class="navbar-inner">
                 <div class="container">
                     <ul class="nav pull-left">
-                        <a class="brand" href="index.html">Profile</a>
+                        <a class="brand" href="#">Profile</a>
                     </ul>
                     <ul class="nav">
-                        <li><a href="#skills">Skills</a></li>
-                        <li class="divider-vertical"></li>
-                        <li><a href="#education">Education</a></li>
-                        <li class="divider-vertical"></li>
-                        <li><a href="#employment">Employment</a></li>
+                        <li><a href="index.html#skills">Skills</a></li>
+                        <li class="divider-vertical">
+                        </li><li><a href="index.html#education">Education</a></li>
+                        <li class="divider-vertical">
+                        </li><li><a href="index.html#employment">Employment</a></li>
                     </ul><!-- 
                     <ul class="nav pull-right">
                         <a class="brand" href="projects.html">Projects</a>
@@ -135,7 +159,7 @@
                             <em>Django, PyQt/PySide, Flask, twisted,
                                 pyglet, cocos2d, SQLAlchemy</em>
                         </dd>
-                        </dd>
+                        
                         <dt>Java</dt>
                         <dd>
                             <p>Desktop applications and complex web apps
@@ -199,14 +223,13 @@
                         <li>Modeling of complex software projects</li>
                     </ul>
                     <p>
-                        <a class="btn btn-primary disabled" href="">View
-                            details &raquo;</a>
+                        <a class="btn btn-primary disabled" href="#">View
+                            details »</a>
                     </p>
                 </div>
     
                 <div class="span3">
-                    <a href="http://www.uni-due.de/" target="_blank"><img
-                        src="assets/img/ude_logo.gif"></img></a>
+                    <a href="http://www.uni-due.de/" target="_blank"><img src="http://www.dominik-schacht.com/assets/img/ude_logo.gif"></a>
                 </div>
             </div>
         </div>
@@ -224,7 +247,7 @@
                 </div>
                 <div class="span6">
                     <h2>
-                        Greyrook Entertainment
+                        Grey Rook Entertainment
                     </h2>
                     <p>Working as a student assistant in software development and server administration.</p>
                     <ul>
@@ -233,7 +256,7 @@
                     </ul>
                     <p>
                         <a class="btn btn-primary disabled" id="show_details_greyrook">View
-                            details &raquo;</a>
+                            details »</a>
                     </p>
                     <div class="row hide" id="details_greyrook">
                         <div class="span2">
@@ -247,8 +270,7 @@
                 </div>
     
                 <div class="span3">
-                    <a href="http://www.greyrook.com/" target="_blank"><img
-                        src="assets/img/greyrook_logo.png" style="background-image:url(assets/img/greyrook_bg.png); padding:4px;"></img></a>
+                    <a href="http://www.greyrook.com/" target="_blank"><img src="http://www.dominik-schacht.com/assets/img/greyrook_logo.png" style="background-image:url(assets/img/greyrook_bg.png); padding:4px;"></a>
                 </div>
             </div>
             <div class="row-fluid">
@@ -272,7 +294,7 @@
                     </ul>
                     <p>
                         <a class="btn btn-primary" id="show_details_inhaus">View
-                            details &raquo;</a>
+                            details »</a>
                     </p>
                     <div class="row hide" id="details_inhaus">
                         <div class="span2">
@@ -291,8 +313,7 @@
                 </div>
     
                 <div class="span3">
-                    <a href="http://www.inhaus-gmbh.de/" target="_blank"><img
-                        src="assets/img/inhausgmbh.gif"></img></a>
+                    <a href="http://www.inhaus-gmbh.de/" target="_blank"><img src="http://www.dominik-schacht.com/assets/img/inhausgmbh.gif"></a>
                 </div>
             </div>
             <div class="row-fluid">
@@ -313,7 +334,7 @@
                     </ul>
                     <p>
                         <a class="btn btn-primary" id="show_details_coconet">View
-                            details &raquo;</a>
+                            details »</a>
                     </p>
                     <div class="row hide" id="details_coconet">
                         <div class="span2">
@@ -331,18 +352,11 @@
                     </div>
                 </div>
                 <div class="span3">
-                    <a href="http://www.coconet.de" target="_blank"><img
-                        src="assets/img/coconet.gif"></img></a>
+                    <a href="http://www.coconet.de" target="_blank"><img src="http://www.dominik-schacht.com/assets/img/coconet.gif"></a>
                 </div>
     
             </div>
         </div>
-
-        <hr>
-
-        <footer>
-            <p>&copy; Dominik Schacht 2012</p>
-        </footer>
 
     </div>
     <!-- /container -->
@@ -362,21 +376,30 @@
 			});
 		});
 		
-
-		var _gaq = _gaq || [];
-		_gaq.push([ '_setAccount', 'UA-32675919-2' ]);
-		_gaq.push([ '_trackPageview' ]);
-
-		(function() {
-			var ga = document.createElement('script');
-			ga.type = 'text/javascript';
-			ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl'
-					: 'http://www')
-					+ '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0];
-			s.parentNode.insertBefore(ga, s);
-		})();
 	</script>
+</div>
+
+    <!--End of body content-->
+    <div class="footerbox">
+    Contents © 2013 <a href="mailto:blog@dominik-schacht.com">Dominik Schacht</a> - Powered by <a href="http://nikola.ralsina.com.ar">Nikola</a>
+    </div>
+
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push([ '_setAccount', 'UA-32675919-2' ]);
+_gaq.push([ '_trackPageview' ]);
+
+(function() {
+	var ga = document.createElement('script');
+	ga.type = 'text/javascript';
+	ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www')
+		+ '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+    <script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"80%",maxHeight:"80%",scalePhotos:true});</script>
 </body>
 </html>

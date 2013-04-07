@@ -1,0 +1,16 @@
+.. title: Dominik Schacht
+.. slug: dominik-schacht
+.. date: 2013/01/13 18:37:47
+.. tags: 
+.. link: 
+.. description: 
+
+.. container:: container-fluid
+
+  .. container:: hero-unit
+
+    .. class:: thumbnail span-2
+
+      .. image:: http://www.dominik-schacht.com/assets/img/portrait.jpg
+
+    Hello! I am a software developer and student interested in Python and Java development. I work mainly on desktop and web applications putting emphasis on maintainable code and working open source. Here are some quick details about me to start with:

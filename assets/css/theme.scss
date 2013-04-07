@@ -1,0 +1,32 @@
+/* base.scss
+ * SCSS-stylesheet used by all pages.
+ */
+@import "orig";
+@import "bootstrap-repair";
+
+
+body {
+    padding-bottom: 40px;
+    font-size: 13px;
+}
+
+div#profiles {
+    text-align: center;
+    margin-top: 1em;
+    
+    a {
+        margin-left: 2em;
+    }
+    
+    img {
+    margin: 3px 2px 4px 2px;
+    }
+}
+
+.hero-unit {
+    margin-top: 1em;
+
+    h1 {
+        font-size: 50px;
+    }
+}

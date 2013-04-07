@@ -2,10 +2,10 @@
 <head>
     
     <meta charset="utf-8">
-    <meta name="title" content="Dominik Schacht | Dominik Schacht">
-    <meta name="description" content="The personal blog of Dominik Schacht.">
+    <meta name="title" content="Moving to Nikola, part 2 | Dominik Schacht">
+    <meta name="description" content="">
     <meta name="author" content="Dominik Schacht">
-    <title>Dominik Schacht | Dominik Schacht</title>
+    <title>Moving to Nikola, part 2 | Dominik Schacht</title>
     <!-- Le styles -->
         <link href="../assets/css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
@@ -36,7 +36,7 @@
             </a>
             <ul class="nav">
                 
-            <li class="active"><a href="#">Blog</a>
+            <li><a href="index.html">Blog</a>
             </li><li><a href="../archive.html">Archives</a>
             </li><li><a href="../categories/index.html">Tags</a>
             </li><li><a href="http://www.dominik-schacht.com">Personal Page</a>
@@ -53,13 +53,16 @@
 <div class="container" id="container">
     <!--Body content-->
     
-        <div class="postbox">
-        <h1 class="post-title"><a href="moving-to-nikola-part-2.html">Moving to Nikola, part 2</a>
-        <small class="pull-right">  
-             Posted: 15.02.2013 16:23
-        </small></h1>
-        <hr>
-        <div><p>One of the biggest issues moving all of the site to Nikola was how to integrate the former main page - the about-me page into the Nikola system. At first I thought it would be relatively easy since both systems use twitter bootstrap as their css foundation, it should be possible to translate most of the html into RestructuredText and have it look very similar. But as it turned out I could never muster up the motivation to do so and that this was for the better.</p>
+    <div class="postbox">
+    <h1 class="post-title">Moving to Nikola, part 2
+    <small class="pull-right">
+        Posted: 15.02.2013 16:23
+    </small></h1>
+    
+ 
+
+    <hr>
+    <div><p>One of the biggest issues moving all of the site to Nikola was how to integrate the former main page - the about-me page into the Nikola system. At first I thought it would be relatively easy since both systems use twitter bootstrap as their css foundation, it should be possible to translate most of the html into RestructuredText and have it look very similar. But as it turned out I could never muster up the motivation to do so and that this was for the better.</p>
 <div class="section" id="adding-html-pages">
 <h2>Adding html pages</h2>
 <p>After some thinking about the problem and reading the change log for Nikola 5.2 it finally dawned upon me that I could just drop the html page into Nikola as a html-story and be finished with it. A first try to create a new story with html formatting failed with the message:</p>
@@ -96,48 +99,20 @@ ERROR: Two different tasks can't have a common target.'output/index.html' is a t
 <p>Tells Nikola to place the blog index into the <tt class="docutils literal">posts</tt> directory. As a result I can find my new index directly under <tt class="docutils literal">localhost:8000/</tt> and the blog index under <tt class="docutils literal">localhost:8000/posts</tt> and all is well.</p>
 </div>
 </div>
-        
-    <p>
-        <a href="moving-to-nikola-part-2.html#disqus_thread">Comments</a>
-
-        </p></div>
-        <div class="postbox">
-        <h1 class="post-title"><a href="working-on-the-design.html">Working on the design</a>
-        <small class="pull-right">  
-             Posted: 16.01.2013 17:00
-        </small></h1>
-        <hr>
-        <p>Instead of producing content I am still focused on working on the blog's template to make it look more in line with the main page and less like the standard Nikola blog. Fortunately both use <a class="reference external" href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> as their css fundament making it easier for me to make them look like each other and extend both at the same time.</p>
-
-        
-    <p>
-        <a href="working-on-the-design.html#disqus_thread">Comments</a>
-
-        </p></div>
-        <div class="postbox">
-        <h1 class="post-title"><a href="a-statically-generated-blog.html">A statically generated blog</a>
-        <small class="pull-right">  
-             Posted: 04.01.2013 17:00
-        </small></h1>
-        <hr>
-        <div><p>I have decided that it would be super cool and hip to switch from the wordpress blog that I hardly use to a static generated blog. I decided to use <a class="reference external" href="http://http://nikola.ralsina.com.ar/">Nikola</a> which seems simple enough to use for a blog and static pages.</p>
-<p>The comfort I see in a static blog is that I can just push it via git to github and use that as hosting. Whenever I want to switch the hoster I just put the static files somewhere else. And it is just plain old fun to write content with vim in restructured text and turn it with magic into a blog :-). It will take some time and posts until the posts are more appealing to the eye</p>
-<p>What I will be writing here will mostly consist of programming topics I work on - other things I do are so much less interesting that I do not even try to write about them.</p>
-</div>
-        
-    <p>
-        <a href="a-statically-generated-blog.html#disqus_thread">Comments</a>
-
-        </p></div>
     
-<div>
-<ul class="pager">
-</ul>
-</div>
+    <ul class="pager">
+        <li class="previous">
+            <a href="working-on-the-design.html">← Previous post</a>
+        </li>
+    </ul>
 
     
-       <script type="text/javascript">var disqus_shortname="dominiks";(function(){var a=document.createElement("script");a.async=true;a.type="text/javascript";a.src="http://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("HEAD")[0]||document.getElementsByTagName("BODY")[0]).appendChild(a)}());</script>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">var disqus_shortname="dominiks";var disqus_url="http://www.dominik-schacht.com/blog/blog/moving-to-nikola-part-2.html";(function(){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src="http://"+disqus_shortname+".disqus.com/embed.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)})();        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
+    </div>
 
     <!--End of body content-->
     <div class="footerbox">
