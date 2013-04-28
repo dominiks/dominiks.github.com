@@ -2,10 +2,10 @@
 <head>
     
     <meta charset="utf-8">
-    <meta name="title" content="Working on the design | Dominik Schacht">
+    <meta name="title" content="Thinking about entity systems | Dominik Schacht">
     <meta name="description" content="">
     <meta name="author" content="Dominik Schacht">
-    <title>Working on the design | Dominik Schacht</title>
+    <title>Thinking about entity systems | Dominik Schacht</title>
     <!-- Le styles -->
         <link href="../assets/css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
@@ -54,30 +54,38 @@
     <!--Body content-->
     
     <div class="postbox">
-    <h1 class="post-title">Working on the design
+    <h1 class="post-title">Thinking about entity systems
     <small class="pull-right">
-        Posted: 16.01.2013 17:00
+        Posted: 14.04.2013 13:37
     </small></h1>
     
  
         More posts about
-            <a class="tag" href="../categories/blog.html"><span class="badge badge-info">blog</span></a>
+            <a class="tag" href="../categories/games.html"><span class="badge badge-info">games</span></a>
 
     <hr>
-    <p>Instead of producing content I am still focused on working on the blog's template to make it look more in line with the main page and less like the standard Nikola blog. Fortunately both use <a class="reference external" href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> as their css fundament making it easier for me to make them look like each other and extend both at the same time.</p>
+    <p>When working with an entity system one will sooner or later find oneself at a point where the technical questions and problems turn more into philosophical discussions. The original thought behind the entity system approach is to prevent hard coding any game object and represent them through a collection of components that are worked on by processors. This can be easily applied to classic game objects like npcs and the player or just static objects standing around in the world.</p>
+<p>I use these terms like this:</p>
+<dl class="docutils">
+<dt>Component</dt>
+<dd>An object containing some atomical data. A Component does not modify its data by itself.</dd>
+<dt>Entity</dt>
+<dd>A reference to a set of components, there are no two components of the same type associated with an entity.</dd>
+<dt>Processor</dt>
+<dd>Works with some components of specific entities and modifies their data.</dd>
+</dl>
+<p>But it gets a bit harder to grasp when thinking of things like the GUI, the actual game world itself or points. Are gui elements even a part of the entity system or can they be separated into something completely else? The game world - the current level - are some sort of singleton, are they still represented through a component or just a processor?</p>
+<div class="section" id="the-game-world">
+<h2>The game world</h2>
+<p>The game world is first and foremost <strong>data</strong>. Data that specifies the boundaries of the world and gives other entities a source of information to navigate through it. This leads naturally to the conclusion that we are dealing here with at least one component - the size of the world.</p>
+</div>
     
     <ul class="pager">
-        <li class="previous">
-            <a href="a-statically-generated-blog.html">← Previous post</a>
-        </li>
-        <li class="next">
-            <a href="moving-to-nikola-part-2.html">Next post →</a>
-        </li>
     </ul>
 
     
         <div id="disqus_thread"></div>
-        <script type="text/javascript">var disqus_shortname="dominiks";var disqus_url="http://www.dominik-schacht.com/blog/blog/working-on-the-design.html";(function(){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src="http://"+disqus_shortname+".disqus.com/embed.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)})();        </script>
+        <script type="text/javascript">var disqus_shortname="dominiks";var disqus_url="http://www.dominik-schacht.com/blog/blog/thinking-about-entity-systems.html";(function(){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src="http://"+disqus_shortname+".disqus.com/embed.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)})();        </script>
         <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 

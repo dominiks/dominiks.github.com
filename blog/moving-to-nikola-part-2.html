@@ -62,7 +62,7 @@
  
 
     <hr>
-    <div><p>One of the biggest issues moving all of the site to Nikola was how to integrate the former main page - the about-me page into the Nikola system. At first I thought it would be relatively easy since both systems use twitter bootstrap as their css foundation, it should be possible to translate most of the html into RestructuredText and have it look very similar. But as it turned out I could never muster up the motivation to do so and that this was for the better.</p>
+    <p>One of the biggest issues moving all of the site to Nikola was how to integrate the former main page - the about-me page into the Nikola system. At first I thought it would be relatively easy since both systems use twitter bootstrap as their css foundation, it should be possible to translate most of the html into RestructuredText and have it look very similar. But as it turned out I could never muster up the motivation to do so and that this was for the better.</p>
 <div class="section" id="adding-html-pages">
 <h2>Adding html pages</h2>
 <p>After some thinking about the problem and reading the change log for Nikola 5.2 it finally dawned upon me that I could just drop the html page into Nikola as a html-story and be finished with it. A first try to create a new story with html formatting failed with the message:</p>
@@ -81,7 +81,7 @@ Exception: Can't find a way, using your configuration, to createa page in format
 </span><span class="cp">&lt;%</span><span class="nb">inherit</span> <span class="na">file=</span><span class="s">"post.tmpl"</span><span class="cp">/&gt;</span><span class="x">
 </span><span class="cp">&lt;%</span><span class="nb">block</span> <span class="na">name=</span><span class="s">"content"</span><span class="cp">&gt;</span><span class="x">
     </span><span class="cp">${</span><span class="n">post</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="n">lang</span><span class="p">)</span><span class="cp">}</span><span class="x">
-</span><span class="cp">&lt;/%</span><span class="nb">block</span><span class="cp">&gt;</span><span class="x"></span>
+</span><span class="cp">&lt;/%</span><span class="nb">block</span><span class="cp">&gt;</span>
 </pre>
 <p>And the result is that I can just paste everything in the <cite>&lt;body&gt;</cite>-tag from the current main page into the created html-story and looks just like the original.</p>
 </div>
@@ -98,11 +98,13 @@ ERROR: Two different tasks can't have a common target.'output/index.html' is a t
 </pre>
 <p>Tells Nikola to place the blog index into the <tt class="docutils literal">posts</tt> directory. As a result I can find my new index directly under <tt class="docutils literal">localhost:8000/</tt> and the blog index under <tt class="docutils literal">localhost:8000/posts</tt> and all is well.</p>
 </div>
-</div>
     
     <ul class="pager">
         <li class="previous">
             <a href="working-on-the-design.html">← Previous post</a>
+        </li>
+        <li class="next">
+            <a href="quidditas-released.html">Next post →</a>
         </li>
     </ul>
 

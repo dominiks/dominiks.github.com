@@ -1,0 +1,15 @@
+.. link: http://quidditas.googlecode.com/
+.. description: 
+.. tags: python, quidditas 
+.. date: 2013/04/28 17:04:39
+.. title: Quidditas 0.9 released
+.. slug: quidditas-released
+
+I finally managed to convince myself to publish one of my projects to the python package index. Quidditas is in a usable state - most of the work I've done on it in the past weeks was working on example projects to see if quidditas itself still has immediate problems but since I found none I can show the project to others so they can find the problems I just don't see.
+
+The project can be visitet at http://quidditas.googlecode.com and downloaded via pypi. Use::
+
+    pip install quidditas
+
+to install the current version 0.9. Help can be found at the project page. Additional help into the ideas of entity based game development will be available in future blog posts.
+
