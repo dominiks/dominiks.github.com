@@ -6,87 +6,102 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://www.dominik-schacht.com/blog/</loc>
-  <lastmod>2014-03-25</lastmod>
+  <lastmod>2014-05-28</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.dominik-schacht.com/blog/2013/</loc>
-  <lastmod>2014-03-25</lastmod>
+  <lastmod>2014-05-28</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.dominik-schacht.com/blog/2013/index.html</loc>
-  <lastmod>2014-03-25</lastmod>
+  <lastmod>2014-05-28</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.dominik-schacht.com/blog/archive.html</loc>
-  <lastmod>2014-03-25</lastmod>
+  <lastmod>2014-05-28</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.dominik-schacht.com/blog/blog/</loc>
-  <lastmod>2014-03-25</lastmod>
+  <lastmod>2014-05-28</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.dominik-schacht.com/blog/blog/a-statically-generated-blog.html</loc>
-  <lastmod>2014-03-25</lastmod>
+  <lastmod>2014-05-28</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.dominik-schacht.com/blog/blog/index.html</loc>
-  <lastmod>2014-03-25</lastmod>
+  <lastmod>2014-05-28</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://www.dominik-schacht.com/blog/blog/introduction-to-entity-based-game-development.html</loc>
+  <lastmod>2014-05-28</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.dominik-schacht.com/blog/blog/moving-to-nikola-part-2.html</loc>
-  <lastmod>2014-03-25</lastmod>
+  <lastmod>2014-05-28</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.dominik-schacht.com/blog/blog/quidditas-released.html</loc>
-  <lastmod>2014-03-25</lastmod>
+  <lastmod>2014-05-28</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://www.dominik-schacht.com/blog/blog/thinking-about-entity-systems.html</loc>
+  <lastmod>2014-05-28</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://www.dominik-schacht.com/blog/blog/using-easygit-as-frontend-for-git.html</loc>
+  <lastmod>2014-05-28</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.dominik-schacht.com/blog/blog/working-on-the-design.html</loc>
-  <lastmod>2014-03-25</lastmod>
+  <lastmod>2014-05-28</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.dominik-schacht.com/blog/categories/</loc>
-  <lastmod>2014-03-25</lastmod>
+  <lastmod>2014-05-28</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.dominik-schacht.com/blog/categories/blog.html</loc>
-  <lastmod>2014-03-25</lastmod>
+  <lastmod>2014-05-28</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.dominik-schacht.com/blog/categories/index.html</loc>
-  <lastmod>2014-03-25</lastmod>
+  <lastmod>2014-05-28</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.dominik-schacht.com/blog/categories/python.html</loc>
-  <lastmod>2014-03-25</lastmod>
+  <lastmod>2014-05-28</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.dominik-schacht.com/blog/categories/quidditas.html</loc>
-  <lastmod>2014-03-25</lastmod>
+  <lastmod>2014-05-28</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.dominik-schacht.com/blog/index.html</loc>
-  <lastmod>2014-03-25</lastmod>
+  <lastmod>2014-06-01</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.dominik-schacht.com/blog/stories/about.html</loc>
-  <lastmod>2014-03-25</lastmod>
+  <lastmod>2014-05-28</lastmod>
   <priority>0.5000</priority>
  </url>
 </urlset>
