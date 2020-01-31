@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Dominik Schacht (python)</title><link>http://www.dominik-schacht.com/blog</link><description>The personal blog of Dominik Schacht.</description><lastBuildDate>Wed, 28 May 2014 16:30:55 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Quidditas 0.9 released</title><link>http://www.dominik-schacht.com/blog/blog/quidditas-released.html</link><description>&lt;p&gt;I finally managed to convince myself to publish one of my projects to the python package index. Quidditas is in a usable state - most of the work I've done on it in the past weeks was working on example projects to see if quidditas itself still has immediate problems but since I found none I can show the project to others so they can find the problems I just don't see.&lt;/p&gt;
-&lt;p&gt;The project can be visited at &lt;a class="reference external" href="http://quidditas.googlecode.com"&gt;http://quidditas.googlecode.com&lt;/a&gt; and downloaded via pypi. Use:&lt;/p&gt;
-&lt;pre class="literal-block"&gt;
-pip install quidditas
-&lt;/pre&gt;
-&lt;p&gt;to install the current version 0.9. Help can be found at the project page. Additional help into the ideas of entity based game development will be available in future blog posts.&lt;/p&gt;</description><category>python</category><category>quidditas</category><guid>http://www.dominik-schacht.com/blog/blog/quidditas-released.html</guid><pubDate>Sun, 28 Apr 2013 17:04:39 GMT</pubDate></item></channel></rss>

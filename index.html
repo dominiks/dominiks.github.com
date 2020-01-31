@@ -21,8 +21,6 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
     <![endif]-->
-            <link rel="alternate" type="application/rss+xml" title="RSS (en)" href="blog/rss.xml">
-
     
     
 </head>
@@ -102,10 +100,6 @@
                 </div>
             </div>
         </div>
-	<!-- Pack this in a nice div or sth.
-	<a class="btn" href="stories/projects.html">See my projects</a>
-	<a class="btn" href="blog/index.html">See my blog</a>
-	-->
         
         <div id="navbar" class="navbar subnav">
             <div class="navbar-inner">
@@ -406,24 +400,28 @@
 
     <!--End of body content-->
     <div class="footerbox">
-    Contents © 2014 <a href="mailto:blog@dominik-schacht.com">Dominik Schacht</a> - Powered by <a href="http://nikola.ralsina.com.ar">Nikola</a>
+    Contents © 2020 <a href="mailto:dominik@schacht.pw">Dominik Schacht</a> - Powered by <a href="http://nikola.ralsina.com.ar">Nikola</a>
     </div>
 
-<!-- Piwik -->
+
+
+<!-- Matomo -->
 <script type="text/javascript">
-  var _paq = _paq || [];
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
-    var u=(("https:" == document.location.protocol) ? "https" : "http") + "://piwik.dominik-schacht.com/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', 2]);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
-    g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    var u="//matomo.schacht.pw/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<noscript><p><img src="http://piwik.dominik-schacht.com/piwik.php?idsite=2" style="border:0;" alt=""></p></noscript>
-<!-- End Piwik Code -->
+<!-- End Matomo Code -->
+
+
 
 
     <script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"80%",maxHeight:"80%",scalePhotos:true});</script>
